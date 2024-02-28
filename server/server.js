@@ -12,7 +12,7 @@ app.use(express.json());
 
 
 const corsOptions ={
-    origin:'https://clever-lolly-1bc29b.netlify.app', 
+    origin:'https://65dea6dfcb3576879317ea8e--tubular-fairy-b8f431.netlify.app/', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
