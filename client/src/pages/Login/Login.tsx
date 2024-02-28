@@ -195,7 +195,7 @@ export const Login = observer(() => {
     return (
         <div className='login'>
 
-      <div  style={{ color: 'white' }}>Update Count: {authStore?.updateCount}</div>
+      <div  style={{ color: 'black' }}>Update Api Count: {authStore?.updateCount}</div>
 
             <div>
                 <Dialog open={openUpdateDialog} onClose={handleUpdateClose}>
@@ -308,10 +308,10 @@ export const Login = observer(() => {
                             <TableBody>
                                 {Array.isArray(user) && user?.map((item, index) => (
                                     <TableRow key={index}>
-                                        <TableCell style={{ color: 'white' }}>{item?.username}</TableCell>
-                                        <TableCell style={{ color: 'white' }}>{item?.address}</TableCell>
-                                        <TableCell style={{ color: 'white' }}>{item?.name}</TableCell>
-                                        <TableCell style={{ color: 'white' }}>{item?.phoneNumber}</TableCell>
+                                        <TableCell style={{ color: 'black' }}>{item?.username}</TableCell>
+                                        <TableCell style={{ color: 'black' }}>{item?.address}</TableCell>
+                                        <TableCell style={{ color: 'black' }}>{item?.name}</TableCell>
+                                        <TableCell style={{ color: 'black' }}>{item?.phoneNumber}</TableCell>
                                
                                         {/* <TableCell>{item.email}</TableCell>
                                     <TableCell>{item.lastLogin}</TableCell> */}
