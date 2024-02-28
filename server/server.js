@@ -12,7 +12,7 @@ app.use(express.json());
 
 
 const corsOptions ={
-    origin:'https://tubular-fairy-b8f431.netlify.app/', 
+    origin:'https://brilliant-nougat-212008.netlify.app/', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
