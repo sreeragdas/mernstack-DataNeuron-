@@ -11,13 +11,12 @@ const port =  5000;
 app.use(express.json());
 
 
-// const corsOptions ={
-//     origin:'https://brilliant-nougat-212008.netlify.app/', 
-//     credentials:true,            //access-control-allow-credentials:true
-//     optionSuccessStatus:200
-// }
-// app.use(cors(corsOptions));
-app.use(cors()); 
+const corsOptions ={
+    origin:'https://brilliant-nougat-212008.netlify.app/', 
+    credentials:true,            //access-control-allow-credentials:true
+    optionSuccessStatus:200
+}
+app.use(cors(corsOptions));
 const uri="mongodb+srv://sreerag:vaishakh@cluster0.xqc4l.mongodb.net/?retryWrites=true&w=majority&ssl=true"
 
 
